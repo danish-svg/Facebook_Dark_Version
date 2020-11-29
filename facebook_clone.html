@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <style>
+        *{
+            margin: 0;
+            overflow: auto;
+            text-decoration: none;
+        }
+        body{
+            background-image:url(dark.jpg);
+        }
+        #fb{
+            display: inline-block;
+            width: 30%;
+            margin: 117px;
+            height: 110px;
+            margin-top: 200px;
+            margin-right: 49px;
+        }
+        #form{
+            background-color: #fff;;
+            border: 3px solid white;
+            border-radius: 5px;
+            width: 26%;
+            float: right;
+            margin: 50px;
+            margin-right: 308px;
+            margin-top: 132px;
+
+        }
+        .logo{
+            font-weight: bolder;
+            color: #1877f2;
+            font-size: 45px;
+        }
+        #tagline{
+            font-weight: normal;
+            color: white;
+        }
+        .input{
+            display: block;
+            margin:auto;
+            width: 310px;
+            margin-top: 10px;
+            border: 1px solid grey;
+            border-radius: 5px;
+            padding: 8px;
+            font-weight: bold;
+            color: black;
+            font-family: cursive;
+            outline: none;
+        }
+        #login{
+            cursor: pointer;
+            width: 330px;
+            height: 47px;
+            margin: auto;
+            display: block;
+            margin-top: 10px;
+            padding: 8px;
+            border: 1px solid #1877f2;
+            border-radius: 5px;
+            background-color: #1877f2;
+            font-family: cursive;
+            color: white;
+            font-weight: bolder;
+            font-size: 22px;
+        }
+        #forgot{
+            width: fit-content ;
+            text-decoration: none;
+            display: block;
+            margin:auto;
+            margin-top: 10px;
+            color:#1877f2;
+        }
+        #line{
+            color: grey;
+            margin: auto;
+            margin-top: 10px;
+            width: 310px;
+        }
+        #signup{
+            cursor: pointer;
+            width: 230px;
+            height: 47px;
+            margin: auto;
+            display: block;
+            margin-top: 20px;
+            padding: 4px;
+            border: 1px solid #42b72a;
+            border-radius: 5px;
+            background-color: #42b72a;
+            font-family: cursive;
+            color: white;
+            font-weight: bolder;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        #page{
+            color: white;
+            font-weight: bold;
+            font-size: 14px;
+        }
+        #pagetxt{
+            color:white;
+            display: inline;
+            font-size: 14px;
+        }
+        #last{
+            float: right;
+            margin-right: 279px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div style="margin-bottom: -37px;">
+            
+            <div id="fb">
+                <h1 class="logo">facebook</h1>
+                <h3 id="tagline">
+                    Facebook helps you connect and share with the people in your life.
+                </h3>
+            </div>
+            <div id="form">
+                <form action="#">
+                    <input type="email" placeholder="Email address or phone number" class="input">
+                    <input type="password" placeholder="Password" class="input">
+                    <button id="login">Log in</button>
+                </form>
+                <a href="#" id="forgot">Forgotten password?</a>
+                <hr id="line">
+                <button id="signup">Create New Account</button>
+                
+            </div>
+        </div>
+        <div id="last">
+            <a href="#" id="page">Create a Page </a>
+            <p id="pagetxt">for a celebrity, band or business.</p>
+        </div>
+
+
+
+    </div>
+
+</body>
+</html>
